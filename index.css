@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #673147;
+}
+
+.main-content {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.choose-option {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.button:active {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  opacity: 50%;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.button-text {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
